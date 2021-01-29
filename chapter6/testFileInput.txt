@@ -1,0 +1,7 @@
+您好：
+        感谢您使用学信网！
+        请点击如下链接，以完成您邮箱的绑定：
+        https://account.chsi.com.cn/account/bind/email.action?verifycode=503b3299cedfcee81dd38a4d962e55b5
+        (如果不能点击该链接地址，请复制并粘贴到浏览器的地址输入框)
+                                                                                学信网
+                                                                                2021-01-28
