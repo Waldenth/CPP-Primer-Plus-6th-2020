@@ -18,7 +18,7 @@ int main() {
     }
     string data;
     char buffer;
-    double sum = 0.0;
+    double sum = 0.0; 
     int count = 0;
     while(inFile.good()){
         count++;
