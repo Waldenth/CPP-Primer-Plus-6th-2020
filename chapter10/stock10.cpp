@@ -9,6 +9,21 @@ Stock::Stock() {
     total_val = 0.0;
 }
 
+Stock::Stock(const std::string&co,long n,double pr){
+    std::cout << "Constructor using " << co << "called\n";
+    company = co;
+    if(n<0){
+        std::cout << "Number of shares can't be negative; " << company
+                  << " shares set to 0.\n";
+        shares = 0;
+    }else{
+        shares = n;
+    }
+    share_val = pr;
+    set_tot();
+}
+
+
 Stock::~Stock() { 
     std::cout << "Bye, " << company << "!\n"; 
 }
