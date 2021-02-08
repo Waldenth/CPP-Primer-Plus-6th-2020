@@ -1,5 +1,5 @@
 CC=g++
-all:usestock0.exe
+all:usestock0.exe 
 usestock0.exe:usestock0.o stock00.o
 	$(CC) usestock0.o stock00.o -o usestock0.exe
 stock00.o:stock00.cpp
