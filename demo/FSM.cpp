@@ -6,7 +6,7 @@ bool fsm(string input, DWORD *output);
 
 int main() {
     DWORD output[6];
-    fsm("2020-02-08 14:00:23", output);
+    fsm("   2020   -   02 ----- 08 --- 14:   00 :  23   ", output);
     cout << "finished\n";
     for (int i = 0; i < 6;i++){
         cout << output[i] << endl;
