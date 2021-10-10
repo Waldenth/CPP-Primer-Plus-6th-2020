@@ -1,6 +1,6 @@
 CC=g++
 DIR= ./bin/
-INDEX=1
+INDEX=3
 all:usetime$(INDEX).exe
 usetime$(INDEX).exe: usetime$(INDEX).o mytime$(INDEX).o
 	$(CC) $(DIR)usetime$(INDEX).o $(DIR)mytime$(INDEX).o -o $(DIR)usetime$(INDEX).exe
