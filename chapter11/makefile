@@ -1,10 +1,12 @@
 CC=g++
-all:usetime0.exe
-usetime0.exe: usetime0.o mytime0.o
-	$(CC) usetime0.o mytime0.o -o usetime0.exe
-usetime0.o: usetime0.cpp
-	$(CC) -c usetime0.cpp -o usetime0.o
-mytime0.o: mytime0.cpp
-	$(CC) -c mytime0.cpp -o mytime0.o
+DIR= ./bin/
+INDEX=1
+all:usetime$(INDEX).exe
+usetime$(INDEX).exe: usetime$(INDEX).o mytime$(INDEX).o
+	$(CC) $(DIR)usetime$(INDEX).o $(DIR)mytime$(INDEX).o -o $(DIR)usetime$(INDEX).exe
+usetime$(INDEX).o: usetime$(INDEX).cpp
+	$(CC) -c usetime$(INDEX).cpp -o $(DIR)usetime$(INDEX).o
+mytime$(INDEX).o: mytime$(INDEX).cpp
+	$(CC) -c mytime$(INDEX).cpp -o $(DIR)mytime$(INDEX).o
 clean:
-	del *.o *.exe
+	del *.o *.exe /q /s
