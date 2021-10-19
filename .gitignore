@@ -31,7 +31,7 @@
 *.out
 *.app
 *.cmake
-*build
+*CMakeFiles
 
 # vscode settings
 *.vscode

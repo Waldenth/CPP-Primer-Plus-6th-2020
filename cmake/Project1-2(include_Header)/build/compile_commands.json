@@ -1,0 +1,12 @@
+[
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe  @CMakeFiles/hello_headers.dir/includes_CXX.rsp -g -o CMakeFiles/hello_headers.dir/src/hello.cpp.obj -c G:/workspace/C++-Primer-Plus-6th-2020/cmake/src/hello.cpp",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/src/hello.cpp"
+},
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe  @CMakeFiles/hello_headers.dir/includes_CXX.rsp -g -o CMakeFiles/hello_headers.dir/src/main.cpp.obj -c G:/workspace/C++-Primer-Plus-6th-2020/cmake/src/main.cpp",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/src/main.cpp"
+}
+]

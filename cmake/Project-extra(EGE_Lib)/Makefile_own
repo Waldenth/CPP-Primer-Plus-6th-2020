@@ -1,0 +1,2 @@
+egeball: egeball.cpp
+	g++ egeball.cpp -o egeball -I"G:/workspace/ege20.08_all/EGE20.08/demo/test/include" -L"G:/workspace/ege20.08_all/EGE20.08/demo/test/lib" -lgraphics64 -lgdiplus -luuid -lmsimg32 -lgdi32 -limm32 -lole32 -loleaut32 -lwinmm
