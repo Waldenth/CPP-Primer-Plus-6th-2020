@@ -30,6 +30,8 @@
 *.exe
 *.out
 *.app
+*.cmake
+*build
 
 # vscode settings
 *.vscode
