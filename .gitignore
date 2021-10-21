@@ -32,6 +32,8 @@
 *.app
 *.cmake
 *CMakeFiles
+SFML-2.5.1
+
 
 # vscode settings
 *.vscode

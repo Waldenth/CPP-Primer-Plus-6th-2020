@@ -1,0 +1,5 @@
+The package sfml:x64-windows provides CMake targets:
+
+    find_package(SFML CONFIG REQUIRED)
+    # Note: 7 target(s) were omitted.
+    target_link_libraries(main PRIVATE FLAC OpenAL OpenGL Vorbis)
