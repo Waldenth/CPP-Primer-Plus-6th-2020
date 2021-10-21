@@ -1,0 +1,10 @@
+^G:\WORKSPACE\OPENCV\BUILD\CMAKEFILES\5F43BFB4DCDCE98C8C4CD9E169D1761A\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\cmake-3.19.4-win64-x64\bin\cmake.exe -SG:/workspace/opencv -BG:/workspace/opencv/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/workspace/opencv/build/vcpkg_opencv_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

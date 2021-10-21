@@ -1,0 +1,10 @@
+^G:\WORKSPACE\OPENCV\CMAKELISTS.TXT
+setlocal
+D:\CMake\cmake-3.19.4-win64-x64\bin\cmake.exe -SG:/workspace/opencv -BG:/workspace/opencv/build --check-stamp-file G:/workspace/opencv/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

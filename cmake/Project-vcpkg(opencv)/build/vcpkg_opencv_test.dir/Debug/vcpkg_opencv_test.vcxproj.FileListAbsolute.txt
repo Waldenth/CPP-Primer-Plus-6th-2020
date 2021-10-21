@@ -1,0 +1,12 @@
+G:\workspace\opencv\build\Debug\opencv_cored.dll
+G:\workspace\opencv\build\Debug\zlibd1.dll
+G:\workspace\opencv\build\Debug\opencv_highguid.dll
+G:\workspace\opencv\build\Debug\opencv_videoiod.dll
+G:\workspace\opencv\build\Debug\opencv_imgcodecsd.dll
+G:\workspace\opencv\build\Debug\opencv_imgprocd.dll
+G:\workspace\opencv\build\Debug\jpeg62.dll
+G:\workspace\opencv\build\Debug\webpd.dll
+G:\workspace\opencv\build\Debug\libpng16d.dll
+G:\workspace\opencv\build\Debug\tiffd.dll
+G:\workspace\opencv\build\Debug\lzmad.dll
+G:\workspace\opencv\build\vcpkg_opencv_test.dir\Debug\vcpkg_opencv_test.vcxproj.CopyComplete
