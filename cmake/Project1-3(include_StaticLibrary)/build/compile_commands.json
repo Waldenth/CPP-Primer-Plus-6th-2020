@@ -1,0 +1,12 @@
+[
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-3(include_StaticLibrary)/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe  @CMakeFiles/hello_library.dir/includes_CXX.rsp -g -o CMakeFiles/hello_library.dir/src/Hello.cpp.obj -c \"G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-3(include_StaticLibrary)/src/Hello.cpp\"",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-3(include_StaticLibrary)/src/Hello.cpp"
+},
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-3(include_StaticLibrary)/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe  @CMakeFiles/hello_binary.dir/includes_CXX.rsp -g -o CMakeFiles/hello_binary.dir/src/main.cpp.obj -c \"G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-3(include_StaticLibrary)/src/main.cpp\"",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-3(include_StaticLibrary)/src/main.cpp"
+}
+]

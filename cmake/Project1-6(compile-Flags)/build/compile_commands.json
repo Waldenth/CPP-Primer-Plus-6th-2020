@@ -1,0 +1,7 @@
+[
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-6(compile-Flags)/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe -DEX4   -DEX2 -g -o CMakeFiles/cmake_examples_compile_flags.dir/main.cpp.obj -c \"G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-6(compile-Flags)/main.cpp\"",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-6(compile-Flags)/main.cpp"
+}
+]

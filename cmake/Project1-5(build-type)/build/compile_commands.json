@@ -1,0 +1,7 @@
+[
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-5(build-type)/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles/cmake_examples_build_type.dir/main.cpp.obj -c \"G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-5(build-type)/main.cpp\"",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project1-5(build-type)/main.cpp"
+}
+]

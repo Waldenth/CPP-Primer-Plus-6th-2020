@@ -29,7 +29,7 @@ endif()
 #set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/Modules/;${CMAKE_MODULE_PATH};${CMAKE_SOURCE_DIR};${EXTERNAL_DIR}")
 #message(${CMAKE_MODULE_PATH})
 
-
+# SFML库的路径，要精确到官方下载的文件/lib/cmake/SFML
 set (SFML_DIR ${EXTERNAL_DIR}/SFML-2.5.1/lib/cmake/SFML)
 message(${SFML_DIR})
 
@@ -74,6 +74,7 @@ if (BUILD_STATIC)
 endif()
 
 # Find SFML
+# 调用需要的模块，此项命令依赖于上面SFML_DIR路径的设置，对于SFML，项目用到啥 调用啥
 if (SFML_OS_WINDOWS AND SFML_COMPILER_MSVC)
     find_package( SFML 2.5 COMPONENTS main audio graphics window system REQUIRED)
 else()
