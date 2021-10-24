@@ -1,7 +1,7 @@
 [
 {
-  "directory": "G:/workspace/ege20.08_all/EGE20.08/demo/test/build",
-  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe  @CMakeFiles/hello_binary.dir/includes_CXX.rsp -g -o CMakeFiles/hello_binary.dir/src/egeball.cpp.obj -c G:/workspace/ege20.08_all/EGE20.08/demo/test/src/egeball.cpp",
-  "file": "G:/workspace/ege20.08_all/EGE20.08/demo/test/src/egeball.cpp"
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe  @CMakeFiles/hello_binary.dir/includes_CXX.rsp -g -o CMakeFiles/hello_binary.dir/src/egeball.cpp.obj -c \"G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)/src/egeball.cpp\"",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)/src/egeball.cpp"
 }
 ]

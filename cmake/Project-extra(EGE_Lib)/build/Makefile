@@ -67,10 +67,10 @@ RM = D:/CMake/cmake-3.19.4-win64-x64/bin/cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:/workspace/ege20.08_all/EGE20.08/demo/test
+CMAKE_SOURCE_DIR = "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:/workspace/ege20.08_all/EGE20.08/demo/test/build
+CMAKE_BINARY_DIR = "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:/workspace/ege20.08_all/EGE20.08/demo/test/build/CMakeFiles G:/workspace/ege20.08_all/EGE20.08/demo/test/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)/build/CMakeFiles" "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:/workspace/ege20.08_all/EGE20.08/demo/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "G:/workspace/C++-Primer-Plus-6th-2020/cmake/Project-extra(EGE_Lib)/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

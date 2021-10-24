@@ -1,0 +1,12 @@
+[
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/DFA/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/DFA.dir/includes_CXX.rsp -g -o CMakeFiles\\DFA.dir\\src\\DFA.cpp.obj -c G:\\workspace\\C++-Primer-Plus-6th-2020\\cmake\\DFA\\src\\DFA.cpp",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/DFA/src/DFA.cpp"
+},
+{
+  "directory": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/DFA/build",
+  "command": "C:\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/DFA.dir/includes_CXX.rsp -g -o CMakeFiles\\DFA.dir\\src\\main.cpp.obj -c G:\\workspace\\C++-Primer-Plus-6th-2020\\cmake\\DFA\\src\\main.cpp",
+  "file": "G:/workspace/C++-Primer-Plus-6th-2020/cmake/DFA/src/main.cpp"
+}
+]

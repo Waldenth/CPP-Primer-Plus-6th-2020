@@ -66,10 +66,10 @@ RM = D:\CMake\cmake-3.19.4-win64-x64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\workspace\C++-Primer-Plus-6th-2020\cmake\Project1-2(include_Header)
+CMAKE_SOURCE_DIR = G:\workspace\C++-Primer-Plus-6th-2020\cmake\DFA
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\workspace\C++-Primer-Plus-6th-2020\cmake\Project1-2(include_Header)\build
+CMAKE_BINARY_DIR = G:\workspace\C++-Primer-Plus-6th-2020\cmake\DFA\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\workspace\C++-Primer-Plus-6th-2020\cmake\Project1-2(include_Header)\build\CMakeFiles G:\workspace\C++-Primer-Plus-6th-2020\cmake\Project1-2(include_Header)\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\workspace\C++-Primer-Plus-6th-2020\cmake\DFA\build\CMakeFiles G:\workspace\C++-Primer-Plus-6th-2020\cmake\DFA\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\workspace\C++-Primer-Plus-6th-2020\cmake\Project1-2(include_Header)\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\workspace\C++-Primer-Plus-6th-2020\cmake\DFA\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,44 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hello_headers
+# Target rules for targets named DFA
 
 # Build rule for target.
-hello_headers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hello_headers
-.PHONY : hello_headers
+DFA: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DFA
+.PHONY : DFA
 
 # fast build rule for target.
-hello_headers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/build
-.PHONY : hello_headers/fast
+DFA/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFA.dir\build.make CMakeFiles/DFA.dir/build
+.PHONY : DFA/fast
 
-src/hello.obj: src/hello.cpp.obj
+src/DFA.obj: src/DFA.cpp.obj
 
-.PHONY : src/hello.obj
+.PHONY : src/DFA.obj
 
 # target to build an object file
-src/hello.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/hello.cpp.obj
-.PHONY : src/hello.cpp.obj
+src/DFA.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFA.dir\build.make CMakeFiles/DFA.dir/src/DFA.cpp.obj
+.PHONY : src/DFA.cpp.obj
 
-src/hello.i: src/hello.cpp.i
+src/DFA.i: src/DFA.cpp.i
 
-.PHONY : src/hello.i
+.PHONY : src/DFA.i
 
 # target to preprocess a source file
-src/hello.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/hello.cpp.i
-.PHONY : src/hello.cpp.i
+src/DFA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFA.dir\build.make CMakeFiles/DFA.dir/src/DFA.cpp.i
+.PHONY : src/DFA.cpp.i
 
-src/hello.s: src/hello.cpp.s
+src/DFA.s: src/DFA.cpp.s
 
-.PHONY : src/hello.s
+.PHONY : src/DFA.s
 
 # target to generate assembly for a file
-src/hello.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/hello.cpp.s
-.PHONY : src/hello.cpp.s
+src/DFA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFA.dir\build.make CMakeFiles/DFA.dir/src/DFA.cpp.s
+.PHONY : src/DFA.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -174,7 +174,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFA.dir\build.make CMakeFiles/DFA.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -183,7 +183,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFA.dir\build.make CMakeFiles/DFA.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -192,7 +192,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_headers.dir\build.make CMakeFiles/hello_headers.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DFA.dir\build.make CMakeFiles/DFA.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -203,10 +203,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... hello_headers
-	@echo ... src/hello.obj
-	@echo ... src/hello.i
-	@echo ... src/hello.s
+	@echo ... DFA
+	@echo ... src/DFA.obj
+	@echo ... src/DFA.i
+	@echo ... src/DFA.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
